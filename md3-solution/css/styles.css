@@ -22,7 +22,7 @@ body {
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -56,22 +56,29 @@ body {
 }
 /* END HEADER */
 
-.item {
+.item > div{
   background-color: #000058;
   color: #eeee;
 }
-.item div{
+.item > div >  div {
   text-align: justify;
   justify-content: inter-word;
-  padding-bottom: 10px;
+  padding: 10px 10px 10px 10px;
 }
-.item h2 {
+h3 {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
 }
+#main-content > div{
+  margin-bottom: 25px;
+}
 
-
-
+#menu-header h2{
+  font-family: "Lora";
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 
