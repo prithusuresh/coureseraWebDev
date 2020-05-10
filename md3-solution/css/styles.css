@@ -59,11 +59,12 @@ body {
 .item > div{
   background-color: #000058;
   color: #eeee;
+
 }
 .item > div >  div {
   text-align: justify;
   justify-content: inter-word;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 15px 15px 15px;
 }
 h3 {
   text-transform: uppercase;
@@ -79,6 +80,7 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom:25px; 
 }
 
 
